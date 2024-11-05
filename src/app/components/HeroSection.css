@@ -1,0 +1,72 @@
+/* Apply a monospaced typing font */
+.typing-text {
+  font-family: 'Courier New', Courier, monospace;
+  position: relative;
+  margin-top: 40px; /* Move it a little lower */
+}
+
+/* Blinking cursor effect */
+.typing-text .cursor {
+  display: inline-block;
+  animation: blink 1s step-end infinite;
+  position: relative;
+  top: 0;
+  color: inherit;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+/* Improve overall color scheme */
+body {
+  background-color: #f9f9f9; /* Light background for better contrast */
+  color: #333333; /* Darker text for readability */
+  font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif; /* Cleaner font */
+}
+
+/* Update text colors for modes */
+.text-bright-green {
+  color: #27ae60; /* Harmonious green shade */
+}
+
+.text-custom-red {
+  color: #c0392b; /* Deep red shade */
+}
+
+.text-accent-orange {
+  color: #FFA500; /* Orange color */
+}
+
+.text-business-blue {
+  color: #118ab2; /* Business blue color */
+}
+
+.bg-accent-orange {
+  background-color: #FFA500;
+}
+
+.bg-business-blue {
+  background-color: #118ab2; /* Business blue color */
+}
+
+/* Enhance headings */
+h1 {
+  font-family: 'Roboto Slab', serif;
+}
+
+/* Improve button styles */
+button {
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+  transition: color 0.3s ease;
+  font-weight: 500;
+}
+
+button:hover {
+  color: #ffffff;
+}
+
+/* Additional styling adjustments */

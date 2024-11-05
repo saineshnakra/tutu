@@ -7,6 +7,7 @@ const config: Config = {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    './src/app/components/**/*.{js,ts,jsx,tsx,css}', // Include CSS files in components folder
   ],
   theme: {
     extend: {
@@ -16,6 +17,7 @@ const config: Config = {
         "tutor-response": "#4a9e5c", // Color for tutor responses
         "custom-red": "#D90429",
         "custom-black": "#000000",
+        "business-blue": "#1E3A8A", // Added classy business blue
       },
       keyframes: {
         fadeInUp: {

@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 :root {
-  --background: #FFFFFF; /* White */
+  --background: #ffffff; /* White */
   --foreground: #000000; /* Black */
 }
 
@@ -30,4 +30,9 @@ button {
 button:focus {
   outline: none;
   box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+}
+
+/* Add animation for mode transitions */
+.mode-transition {
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 }

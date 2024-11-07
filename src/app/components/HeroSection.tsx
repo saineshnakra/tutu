@@ -85,7 +85,7 @@ export default function HeroSection() {
 
   return (
     <section
-      className={` mt-10 relative w-full py-20 overflow-hidden ${
+      className={`mt-10 relative w-full py-20 overflow-hidden mode-transition ${
         mode === "viral"
           ? "bg-custom-black text-white"
           : mode === "business"

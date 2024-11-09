@@ -188,15 +188,9 @@ export default function HeroSection() {
               Business
             </button>
           </div>
-          {/* Remove the text under the buttons but maintain spacing */}
-          {/* Remove this div: <div className="mb-12"></div> */}
-          {/* Move TypingText here */}
           <TypingText text="" mode={mode} />
         </div>
-        {/* Remove TypingText from the side */}
-        {/* Right Column for Additional Text */}
       </div>
-      {/* Pass mode to TopicInput */}
       <TopicInput mode={mode} />
     </section>
   );

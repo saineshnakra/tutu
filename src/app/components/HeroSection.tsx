@@ -153,7 +153,7 @@ export default function HeroSection() {
               ? "Go viral with catchy tunes.\nBreak the internet with music."
               : mode === "business"
               ? "Turn your brand into a melody.\nMake your business memorable."
-              : "Learning is emotion.\nYou remember what you feel."}
+              : "Learning is feeling.\nWe remember what we feel."}
           </p>
           {/* Toggle Slider */}
           <div className="flex justify-center items-center mt-6 space-x-4">

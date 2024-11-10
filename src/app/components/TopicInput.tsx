@@ -163,7 +163,7 @@ export default function TopicInput({ mode = "educational" }: { mode?: "education
                 </div>
                 <div>
                   <Label className="text-base font-medium text-gray-800">
-                    Generate Video
+                    Generate Video (Work in Progress)
                   </Label>
                   <p className="text-sm text-gray-500">
                     {generateVideo ? "Create a video" : "Generate music and lyrics"}

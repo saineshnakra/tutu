@@ -5,7 +5,7 @@ import { Loader2 } from 'lucide-react'
 
 async function makeSong(query: string, version: number) {
   try {
-    const response = await fetch('https://tunetutor.onrender.com/api/generate', {
+    const response = await fetch('https://tutu-app-199983032721.us-central1.run.app/api/generate', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

@@ -4,7 +4,7 @@ const nextConfig = {
     return [
       {
         source: '/api/:path*',
-        destination: 'https://tunetutor.onrender.com/api/:path*', // Proxy to external API
+        destination: 'https://tutu-app-199983032721.us-central1.run.app/api/:path*', // Proxy to external API
       },
     ];
   },
